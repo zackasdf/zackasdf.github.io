@@ -1,0 +1,140 @@
+/* phone */
+
+@media all and (max-width: 480px) {
+    header {
+        padding-bottom: 2vh;
+    }  
+  nav a {
+      font-size: 1.8vh;
+  }
+  
+  
+  header p {
+      display:none;
+  } 
+      
+      #home {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      vertical-align: middle;
+      
+  }
+  
+  .home_content {
+      font-size: 2.5vh;
+      padding-right: 2.2em;
+  
+  }
+  
+  #home_content_header {
+      font-size: 2.5vh;
+  }
+  
+      
+      #home img {
+      margin-top: 15vh;
+      height: 130px;
+      width: 130px;
+      border-radius: 50%;
+      border: 5px solid #3E4E59;
+     
+  }
+  
+  
+  #about  h1 {
+      font-size: 2vh;
+      
+  }
+  
+  
+  .about_content {
+      font-size: 1.4vh; 
+  }
+  
+  #timeline {
+      font-size: 1.4vh;
+  }
+  
+  #timeline h2 {
+      font-size: 2vh;
+  }
+  
+  
+  #contact {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+  }
+  
+  
+  
+  #map {
+      margin: 0;
+      height: 500px;
+      width: 100%;
+  }
+  
+  #work {
+      width: 100vw;
+      margin: 0;
+  }
+  
+  .contact_content a{
+      font-size: 3vh;
+      padding-bottom: 1vh;
+  }
+  
+  
+      
+  }
+  
+  
+  /*iPad*/
+  
+  @media all and (max-width: 980px) {
+      
+  #map {
+      margin: 0;
+      height: 500px;
+      width: 100%;
+  }
+  
+  #about {
+      height: 130vh;
+  }
+  
+  #work {
+      width: 100vw;
+      margin: 0;
+      height: 100vh;
+  }
+  
+  #grid_title {
+      font-size: 2vh;
+      padding: 2em;
+  }
+  
+  .work_wrapper > div > p {
+      font-size: 1.5vh;
+  }
+  
+  
+  
+  
+  }
+  
+  @media all and (min-width: 1000px) {
+      
+      #about {
+          height: 130vh;
+      }
+      
+      #work {
+          height: 130vh;
+      }
+      
+  }
+  

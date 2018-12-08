@@ -1,0 +1,276 @@
+html, body {
+    margin: 0px;
+    background-color: #F1F0E2;
+    font-family: 'Ubuntu', sans-serif;
+    overflow-x: hidden;
+    
+}
+
+
+.logo {
+    width: 50px;
+    height: 60px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C2E7F2;
+    z-index: 3;
+}
+
+header > span {
+    margin-left: 3vw;
+    margin-top: 1vh;
+    vertical-align: middle;
+}
+header > nav > a:last-child {
+    margin-right: 3vw;
+}
+
+header p {
+    font-size: 2vh;
+    text-decoration: none;
+    color: #3E4E59;
+}
+
+nav > a {
+    color: #3E4E59;
+    text-decoration: none;
+    margin-right: 3vw;
+    vertical-align: middle;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+
+}
+
+a:hover {
+    color: #F25652;
+    font-style: italic;
+}
+
+
+
+article {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    top: 0;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+
+#home {
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+
+
+.home_content {
+    display: flex;
+    flex-direction: column;
+    color: #7DABB2;
+    width: 40vw;
+    font-size: 3vh;
+    margin-left: 10vw;
+    margin-top: 5vh;
+
+}
+
+#home_content_header {
+    color: #F25652;
+    font-size: 4vh;
+    font-weight: bold;
+}
+
+/* home page name color change */
+
+#home_content_header:hover {
+    color: #FF5B56;
+    transition: all .2s ease-out;
+}
+
+#home img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 5px solid #3E4E59;
+    margin-right: 1vw;
+   
+}
+
+
+#about {
+    background-color: #E3E2D5;
+    padding-top: 15vh;
+    padding-bottom: 20vh;
+    height: 150vh;
+}
+
+#about  h1 {
+    font-size: 3vh;
+    color: #D9BB93;
+    font-style: italic;
+    
+}
+
+#about li {
+    font-weight: bold;
+    color: #F25652;
+}
+
+.about_content {
+    float: left;
+    margin-right: 10vw;
+    font-size: 1rem;
+    color: #3E4E59;
+    width: 30vw;
+}
+
+#timeline {
+    float: right;
+    width: 30vw;
+    font-size: 1rem;
+}
+
+#timeline h2 {
+    font-size: 3vh;
+    color: #7DABB2;
+    font-style: italic;
+}
+
+.date {
+    font-style: italic;
+    
+}
+.role {
+    font-weight: bold;
+    
+}
+
+.company {
+    color: #9B989C;
+    
+}
+
+
+
+
+
+#work {
+padding-top: 10em;
+margin-left: 10vw;
+margin-right: 10vw;
+width: 80vw;
+height: 150vh;
+
+}
+
+.work_wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px;
+  border-radius: 5px;
+  grid-gap: 5px;
+  
+}
+
+.work_wrapper > div {
+  border: 2px solid #3E4E59;
+  border-radius: 2px;
+  padding: 1em;
+  background-color: #C2E7F2;
+  color: #B0D1DB2;
+}
+
+.work_wrapper > div > p {
+    font-size: 2vh;
+    z-index: -1;
+}
+
+#grid_title {
+    padding: .5em;
+    font-size: 4vh;
+    text-align: center;
+    font-weight: bold;
+    background-color: #FF5B56;
+    color: #3E4E59;
+    
+}
+
+#grid_div_img {
+    width: 100%;
+    height: 150px;
+    border: 2px solid #3E4E59;
+    opacity: 1;
+
+}
+
+#grid_div_img:hover {
+    opacity: 0.85;
+    transition: all .3s ease-out;
+    transform: scale(1.025);
+    
+}
+
+
+#contact {
+   padding-top: 20vh;
+    align-items: center;
+    background-color: #E3E2D5;
+}
+
+.contact_content {
+    padding: 10vh;
+    float: left;
+    font-size: 5vh;
+    color: #3E4E59;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type:  none;
+}
+
+.contact_content a { 
+    text-decoration: none;
+    color: #3E4E59;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+}
+
+.contact_content a:hover {
+   color: #F25652;
+    font-style: italic;
+    text-decoration: none;
+    
+}
+
+
+#map {
+    float: right;
+    clear: right;
+    margin-right: 5vw;
+    border: 10px solid #F25652;
+    height: 458px;
+    width: 40%;
+}
+
+
+
+/* area reserved for the soon to come media queries */
